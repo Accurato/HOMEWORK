@@ -63,7 +63,7 @@ if (c > b)
     max = c;
 }
 if (a > c)
-{    
+{
     max = a;
 }
 Console.WriteLine(max);
@@ -110,8 +110,10 @@ else
 int numberN = int.Parse(Console.ReadLine());
 int i = 2;
 
-if(numberN > 1){
-    while (i < numberN){
+if (numberN > 1)
+{
+    while (i < numberN)
+    {
         Console.WriteLine(i);
         i += 2;
     }
