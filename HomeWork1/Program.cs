@@ -54,18 +54,15 @@ int c = int.Parse(Console.ReadLine());
 
 int max = a;
 
-if (b > a)
+if (b > max)
 {
     max = b;
 }
-if (c > b)
+if (c > max)
 {
     max = c;
 }
-if (a > c)
-{
-    max = a;
-}
+
 Console.WriteLine(max);
 
 
