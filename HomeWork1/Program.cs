@@ -109,7 +109,7 @@ int i = 2;
 
 if (numberN > 1)
 {
-    while (i < numberN)
+    while (i <= numberN)
     {
         Console.WriteLine(i);
         i += 2;
